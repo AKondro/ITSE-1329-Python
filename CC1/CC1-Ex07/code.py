@@ -1,2 +1,2 @@
-name = input()  # add your code here
-print(‘Hello’, ___)  # fill in the blank
+name = input('Who are you? ')  
+print('Hello', name)  
