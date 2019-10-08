@@ -1,3 +1,3 @@
 phrase = 'The color Red is my favorite'
-__________________ #Fill in blank with your slice
+color = phrase[10:13]
 print(color)

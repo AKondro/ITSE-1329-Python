@@ -15,7 +15,7 @@ response = input('Would you like to hear a joke?')
    
 # Fill out vvvvvvvvvvvvvvvvvvvvv
 
-if response_____ == 'y': # fill in blank to get first letter of the response variable
+if response[0] == 'y': # fill in blank to get first letter of the response variable
 
 # Fill out ^^^^^^^^^^^^^^^^^^^^^
 

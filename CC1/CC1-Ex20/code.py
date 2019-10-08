@@ -1,3 +1,3 @@
 string = 'Python is fun'
-string_upper = ___________  # Fill in the blank
+string_upper = string.upper()
 print(string_upper)

@@ -4,9 +4,9 @@ slices = randint(1, 6)
 # DO NOT TOUCH ============================================
 
 # YOUR CODE GOES HERE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-if __________:
-    print(________________)
+if slices < 3:
+    print("Have another slice!")
 else:
-    print(_______________)
+    print("You have had enough pizza")
 
 #YOUR CODE GOES HERE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

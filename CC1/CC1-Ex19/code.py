@@ -1,3 +1,3 @@
 phrase = 'Python'
-phrase_upper = phrase.______  # Fill in the blank
+phrase_upper = phrase.upper()
 print(phrase_upper)

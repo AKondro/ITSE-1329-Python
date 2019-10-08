@@ -1,3 +1,3 @@
 phrase = 'I have a dog'
-pet = phrase____ #Fill in blank with your slice
+pet = phrase[9:12]
 print(pet)
