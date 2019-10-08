@@ -4,9 +4,9 @@ lane = randint(1, 10)
 # DO NOT TOUCH ============================================
 
 # YOUR CODE GOES HERE vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-if _____:
-    print(_____)
+if lane == 1:
+    print("Kids lane")
 else:
-    print(_____)
+    print("Adult lane")
 
 # YOUR CODE GOES HERE ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
