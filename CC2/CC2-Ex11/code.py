@@ -1,8 +1,8 @@
 countdown = 10
 
-while _________: # add condition
-    print(_________)
-    _________ = _________ - 1
+while countdown > 0: # add condition
+    print(countdown)
+    countdown = countdown - 1
 
 
 print('Blastoff!')
