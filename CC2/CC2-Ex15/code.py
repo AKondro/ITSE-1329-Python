@@ -1,3 +1,5 @@
 students = ['Andy', 'Clint', 'Rus', 'Tonya']
 
-# Your code goes here
+for i in ['Andy', 'Clint','Rus', 'Tonya'] :
+    print('Welcome to class '+ i)
+print('Class has started')
