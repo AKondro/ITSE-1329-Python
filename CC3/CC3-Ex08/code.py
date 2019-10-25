@@ -1,2 +1,2 @@
 def fun_function(x):
-    _________________  # Fill in the blank
+    return   # Fill in the blank
