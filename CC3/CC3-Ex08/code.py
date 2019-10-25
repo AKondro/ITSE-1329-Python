@@ -1,2 +1,3 @@
 def fun_function(x):
-    return   # Fill in the blank
+    x = x + 5
+    return x   # Fill in the blank
