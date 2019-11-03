@@ -1,1 +1,3 @@
-def capitalize():
+def capitalize(string):
+    string = string.capitalize()
+    return(string)
