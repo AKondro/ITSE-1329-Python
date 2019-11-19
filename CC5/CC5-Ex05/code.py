@@ -3,6 +3,6 @@ strings = ["Hippopoto", "monstro", "sesqui", "pedalio", "phobic"]
 # DO NOT TOUCH
 
 result = ''
-for ____ in ______:
-    _____ = _____ + _____
-result = _____.upper()
+for ____ in strings:
+    _____ = strings + _____
+result = strings.upper()

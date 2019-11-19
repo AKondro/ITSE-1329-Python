@@ -1,5 +1,5 @@
 def sum_three(nums):
     total = 0
-    for _____ in _____:
-        _____ = _____ + _____
+    for nums in :
+        total = _____ + _____
     return total
