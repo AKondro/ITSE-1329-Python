@@ -1,7 +1,7 @@
 def first_last6(nums):
-  if ______________:
-    return _________
-  elif ____________:
-    return _________
+  if nums[0] == 6:
+    return True
+  elif nums[2] == 6:
+    return True
   else:
-    ________________
+    return False
