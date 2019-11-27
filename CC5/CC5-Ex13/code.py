@@ -1,5 +1,5 @@
 pet_info = {
-    'name': '_____',
-    'age': _____,
-    'gender': '_____'
+    'name': 'Sara',
+    'age': 5,
+    'gender': 'Female'
 }
