@@ -1,5 +1,6 @@
 name = input('Enter file: ')
 handle = open(name)
+
 counts = dict()
 for line in handle:
     words = line.split()
