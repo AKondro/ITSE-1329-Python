@@ -8,12 +8,12 @@ for line in handle:
          email = words[1]
          counts[email] = counts.get(email, 0) + 1
         
-print(counts)
 
 bigcount = None
 bigword = None
-for word,count in count.items():
+for word,count in counts.items():
     if bigcount is None or count > bigcount:
         bigword = word
         bigcount = count
+        
 print(bigword, bigcount)
