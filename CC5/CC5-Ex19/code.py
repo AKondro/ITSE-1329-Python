@@ -1,9 +1,11 @@
-name = input('Enter file: ')
-handle = open(name)
+file_name = input('Enter file: ')
+handle = open(file_name)
 
 counts = dict()
 for line in handle:
-    words = line.split()
-    for word in words:
-        counts[word] = counts.get(word, 0) + 1
+    if line.startswith('From '):
+         words = line.split()
+         email = words[1]
+         counts[email] = counts.get(email, 0) + 1
+        
 print(counts)
