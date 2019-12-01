@@ -9,12 +9,6 @@ def greeter(first_name, last_name) :
     time_of_day = random.randint(1, 25)
     print('The current hour is', time_of_day )
     #based on the time of day generated message and returns the correct greeting
-    def time_day(times):
-        counts = dict()
-        for time in times:
-            counts[time] = counts.get(time, 0) + 1
-        return counts
-        
     if time_of_day < 5:
         result = 'Have a good night, '+' '+ first_name +' '+ last_initial
     elif time_of_day < 11:
@@ -28,6 +22,8 @@ def greeter(first_name, last_name) :
     return(result)
 count = 0 
 a_greeting = 'yes'
+#creates a dictionary
+counts = dict()
 #run the following loop until user doesn't want another greeting
 while a_greeting == 'yes': 
     #inputs for first name, last name
@@ -37,6 +33,14 @@ while a_greeting == 'yes':
         sentence = greeter(first_name, last_name)
     #prints the results from the greeter function
         print(sentence)
+        #to separate each word
+        split_time = sentence.split()
+        #removes comma at the end of the 4th word
+        time = split_time[3].rstrip(',')
+        #adds the time of day and counter into the dictionary
+        counts[time] = counts.get(time, 0) + 1
         count=count+1
         a_greeting = input('Would you like another greeting? ')
-print('You received' ,count, 'greetings')
+#loop through the dictionary to print the time of day and count
+for time, cnt in counts.items():
+    print(time, cnt)
