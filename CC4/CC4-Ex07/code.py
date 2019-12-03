@@ -3,6 +3,6 @@
 #   removed
 fhand = open("alice.txt")
 for line in fhand:
-    line = line.rstrip()
-    if line.startwith('alice') :
+    line1 = line.rstrip()
+    if line1.startswith('alice') :
         print(line)
