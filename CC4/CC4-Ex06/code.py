@@ -3,6 +3,6 @@
 #   removed
 fhand = open("mbox-short.txt")
 for line in fhand:
-    line = line.rstrip()
-    if line.startwith('From:') :
-        print(line)
+    line1 = line.rstrip()
+    if line1.startwith('From:') :
+        print(line1)
