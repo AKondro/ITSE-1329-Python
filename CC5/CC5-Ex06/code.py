@@ -4,6 +4,6 @@ strings = ["Ses", "qui", "ped", "alian"]
 
 # Write you code below
 result = ''
-for ____ in strings:
-    _____ = strings + _____
+for word in strings:
+    strings = strings + word
 result = strings.upper()
